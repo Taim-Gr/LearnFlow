@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@theme {
+  /* Colors */
+  --color-base: #f7efeb; /* light background / primary color */
+  --color-light: #ffffff; /* secondary light color */
+  --color-dark: #2e241f; /* primary dark color */
+  --color-primary: #e76e50; /* primary accent / call-to-action */
+  --color-muted: #7e6f67; /* muted elements or text */
+  --color-highlited: #2a6f61;
+
+  /* Fonts */
+  --font-primary: "DM Sans", system-ui, sans-serif;
+  --font-secondary: "Fraunces", Georgia, serif;
+
+  /* Animation / transition */
+  --transition-default: 0.3s;
+}
+button {
+  cursor: pointer;
+}

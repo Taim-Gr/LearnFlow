@@ -1,0 +1,23 @@
+.disabled-link {
+    color: var(--color-muted);
+    position: relative;
+}
+.headlink{
+        position: relative;
+}
+.headlink::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 0%;
+    height: 2.5px;
+    background-color: var(--color-primary);
+    transition: var(--transition-default);
+}
+.disabled-link:hover {
+    color: black;
+}
+.headlink:hover::before {
+    width: 100%;
+}
